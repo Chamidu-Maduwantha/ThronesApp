@@ -13,7 +13,7 @@ const SplashScreen = ({ navigation }) => {
                 } else {
                     navigation.replace("Login"); // User is not authenticated, navigate to the login screen
                 }
-            }, 3000); // Simulate some loading process
+            }, 3000); // Wait for 3 seconds
         });
     
         return unsubscribe;

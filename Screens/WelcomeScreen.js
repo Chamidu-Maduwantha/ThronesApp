@@ -20,7 +20,7 @@ const WelcomeScreen = () => {
   }, []);
 
   const goToSettings = () => {
-    // Navigate to the settings screen
+    // Navigate to the Profile screen
     navigation.navigate('Profile');
   };
 
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   settingsIcon: {
-    padding: 5, // Add padding for touchable area
+    padding: 5, 
   },
   characterItem: {
     backgroundColor: '#3D3D3D',

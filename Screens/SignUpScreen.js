@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
   },
   signInContainer: {
     position: 'absolute',
-    bottom: 16, // Adjust this value as needed
+    bottom: 16, 
     alignItems: 'center'
   },
   accountText:{

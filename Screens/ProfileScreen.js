@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Button, StyleSheet, TextInput ,TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { getDatabase, ref, get } from 'firebase/database';
-import { auth } from '../firebase'; // Assuming you have an 'auth' object in your firebase module
+import { auth } from '../firebase'; 
 
 const ProfileScreen = () => {
   const navigation = useNavigation();
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
         color: '#C0C0C0',
         paddingLeft: 10,
         paddingTop: 2,
-        fontSize: 12, // Adjust the font size
+        fontSize: 12, 
       },
       input: {
         width: '100%',
