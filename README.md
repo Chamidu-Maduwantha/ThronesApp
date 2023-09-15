@@ -75,11 +75,11 @@ Follow these steps to set up and run the project:
          npm run ios
 
 
-### Firebase Integration
+## Firebase Integration
 This application integrates Firebase for authentication and database storage. Firebase provides a secure and scalable way to manage user authentication and store user data.
 
-### Game of Thrones API
+## Game of Thrones API
 The ThronesAPI (https://thronesapi.com/) is used to fetch data about Game of Thrones characters. You can customize the design of the character list screen according to your preferences.
 
-#### Voice-to-Text Feature
+## Voice-to-Text Feature
 The voice-to-text feature is implemented using the react-native-voice library. Users can use voice input for text fields in the application, enhancing the user experience.
