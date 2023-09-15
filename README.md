@@ -2,19 +2,6 @@
 
 A small React Native application that integrates Firebase authentication, displays a list of Game of Thrones characters, and includes a voice-to-text feature.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Firebase Integration](#firebase-integration)
-- [Game of Thrones API](#game-of-thrones-api)
-- [Voice-to-Text Feature](#voice-to-text-feature)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
