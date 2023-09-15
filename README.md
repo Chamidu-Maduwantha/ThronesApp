@@ -39,4 +39,47 @@ Follow these steps to set up and run the project:
    ```bash
    git clone https://github.com/yourusername/react-native-thrones-app.git
 
+1. Change to the project directory:
+   cd react-native-thrones-app
 
+2.  Install project dependencies:
+
+
+
+      ```bash
+      npm install
+         # or
+      yarn install
+
+3. Set up Firebase:
+
+  . Create a Firebase project on the Firebase Console.
+  . Set up Firebase Authentication and Realtime Database.
+  . Copy your Firebase configuration and replace it in the project where needed (e.g., firebase.js).
+
+4. Start the application
+
+    ```bash
+   npm start
+      # or
+   yarn start
+
+5. The Metro Bundler will open in your browser. You can run the app on an Android or iOS emulator, or on a physical device using the Expo Go app.
+
+   For Android, can also run:
+       
+       npm run android
+
+   For iOS, you can run:
+
+         npm run ios
+
+
+### Firebase Integration
+This application integrates Firebase for authentication and database storage. Firebase provides a secure and scalable way to manage user authentication and store user data.
+
+### Game of Thrones API
+The ThronesAPI (https://thronesapi.com/) is used to fetch data about Game of Thrones characters. You can customize the design of the character list screen according to your preferences.
+
+#### Voice-to-Text Feature
+The voice-to-text feature is implemented using the react-native-voice library. Users can use voice input for text fields in the application, enhancing the user experience.
