@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity,StyleSheet,FlatList } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import axios from 'axios';
+import VoiceToText from './VoiceToText';
 
 const WelcomeScreen = () => {
   const navigation = useNavigation();
@@ -31,6 +32,7 @@ const WelcomeScreen = () => {
           <FontAwesome name="cog" size={30} color="white" />
         </TouchableOpacity>
       </View>
+      <VoiceToText />
       <FlatList
         data={characters}
         keyExtractor={(item) => item.id.toString()}
@@ -39,8 +41,10 @@ const WelcomeScreen = () => {
             <Text style={styles.characterName}>{item.fullName}</Text>
             <Text style={styles.characterTitle}>{item.title}</Text>
           </View>
+         
         )}
       />
+      
     </View>
   );
 };

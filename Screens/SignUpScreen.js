@@ -6,6 +6,7 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { getDatabase, ref, set } from 'firebase/database';
 import { Ionicons } from '@expo/vector-icons';
 
+
 const SignUpScreen = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -216,6 +217,7 @@ const SignUpScreen = () => {
               </TouchableOpacity>
             </Text>
           </View>
+          
         </View>
       
   );
